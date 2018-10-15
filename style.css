@@ -2,7 +2,7 @@ body {
     background-color: rgb(56, 52, 52);
     color: whitesmoke;
     font-family: 'Fredericka the Great', cursive;
-    
+    font-size: 2rem;
 }
 
 #cursor {
@@ -32,6 +32,20 @@ body {
 
   .navbar-link {
       color: whitesmoke;
+  }
+
+  .title {
+      color: whitesmoke;
+  }
+
+  .navbar {
+      height: 80px;
+  }
+
+  a {
+      color: whitesmoke;
+      font-family: 'Fredericka the Great', cursive;
+      padding-top: 5px;
   }
   @keyframes "blink" {
     from, to {
@@ -80,8 +94,7 @@ body {
 
 .container {
     display: flex;
-    height: 90vh;
-    justify-content: left;
-    
+    height: 94vh;
+    justify-content: space-around;
     flex-direction: column-reverse;
 }
