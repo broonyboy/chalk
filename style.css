@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(56, 52, 52);
+    color: whitesmoke;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6rem;
+}
+
+#cursor {
+    position: relative;
+    top: 20px;
+    font-size: 11rem;
+}
+
+#cursor2 {
+    font-weight: 100;
+    font-size: 6rem;
+    color: whitesmoke;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+
+.container {
+    display: flex;
+    height: 80vh;
+    justify-content: left;
+    
+    flex-direction: column-reverse;
+}
