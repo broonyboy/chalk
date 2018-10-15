@@ -2,7 +2,7 @@ body {
     background-color: rgb(56, 52, 52);
     color: whitesmoke;
     font-family: 'Fredericka the Great', cursive;
-    font-size: 6rem;
+    
 }
 
 #cursor {
@@ -21,7 +21,18 @@ body {
     -o-animation: 1s blink step-end infinite;
     animation: 1s blink step-end infinite;
   }
+
+  .name, #saying, .day {
+    font-size: 6rem;
+  }
   
+  .navbar {
+      background-color: rgb(56, 52, 52);
+  }
+
+  .navbar-link {
+      color: whitesmoke;
+  }
   @keyframes "blink" {
     from, to {
       color: transparent;
@@ -69,7 +80,7 @@ body {
 
 .container {
     display: flex;
-    height: 80vh;
+    height: 90vh;
     justify-content: left;
     
     flex-direction: column-reverse;
