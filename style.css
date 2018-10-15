@@ -42,6 +42,10 @@ body {
       height: 80px;
   }
 
+  .navbar-dropdown {
+      font-size: 1.5rem;
+  }
+
   a {
       color: whitesmoke;
       font-family: 'Fredericka the Great', cursive;
