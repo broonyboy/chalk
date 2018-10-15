@@ -3,6 +3,7 @@ body {
     color: whitesmoke;
     font-family: 'Fredericka the Great', cursive;
     font-size: 6rem;
+    padding-left: 30px;
 }
 
 #cursor {
