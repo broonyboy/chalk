@@ -2,18 +2,18 @@ body {
     background-color: rgb(56, 52, 52);
     color: whitesmoke;
     font-family: 'Fredericka the Great', cursive;
-    font-size: 2rem;
+    font-size: 15px;
 }
 
 #cursor {
     position: relative;
     top: 20px;
-    font-size: 11rem;
+    font-size: 60px;
 }
 
 #cursor2 {
     font-weight: 100;
-    font-size: 6rem;
+    font-size: 30px;
     color: whitesmoke;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
@@ -23,7 +23,7 @@ body {
   }
 
   .name, #saying, .day {
-    font-size: 6rem;
+    font-size: 30px;
   }
   
   .navbar {
@@ -43,7 +43,7 @@ body {
   }
 
   .navbar-dropdown {
-      font-size: 1.5rem;
+      font-size: 15px;
   }
 
   a {
