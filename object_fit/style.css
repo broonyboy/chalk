@@ -1,0 +1,18 @@
+h1 {
+    color: #e4e4e4;
+    font-size: 5rem;
+    margin-bottom: .5em;
+}
+
+.card {
+    background: lightgreen;
+    width: 350px;
+    padding: 3rem;
+}
+.card_image {
+    width: 100%;
+    height: 150px;
+    /* lots of properties to check out */
+    object-fit: scale-down;
+    /* object-position: bottom center; */
+}
